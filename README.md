@@ -44,3 +44,34 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Git commit convention
+
+Commit should be flow by [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional)
+
+Example:
+
+```bash
+git commit -m "feat: add new feature"
+```
+
+**Bypass commitlint** (add --no-verify to bypass)
+
+## Built Using
+
+- ReactJS - Library
+- Typescript - Programming language
+- Redux - State management
+- React Router - Router management
+- React Hook Form - Form management
+
+### Tool
+
+- Eslint
+- Prettier
+- Husky
+- Commitlint
+
+### Author
+
+- Nguyen Van Tuan - Frontend Developer
