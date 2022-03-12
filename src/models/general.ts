@@ -37,6 +37,6 @@ export type SlideCustomer = {
 export interface ICustomers {
   name: string;
   description: string;
-  big_url_image: string;
+  main_url_image: string;
   slide_customer: Array<SlideCustomer>;
 }
